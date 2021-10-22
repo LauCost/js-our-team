@@ -30,3 +30,12 @@ const ourTeam = [
         image: "https://picsum.photos/id/1025/300/300"
     }
 ];
+
+/* console.log(ourTeam); */
+
+for (const key in ourTeam) {
+
+    const element = ourTeam[key];
+
+    console.log(ourTeam[key]);
+}
